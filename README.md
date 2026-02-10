@@ -139,7 +139,7 @@ See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for det
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+Acknowledgments
 
 - OpenAI for GPT-4o-mini API
 - ESCO for occupation and skill data
