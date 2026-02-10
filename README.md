@@ -9,8 +9,6 @@
 
 Atlas AI is a comprehensive career development platform that uses Artificial Intelligence to guide users through their professional journey. From personalized career recommendations and skill gap analysis to roadmap generation and job simulation, Atlas AI provides a holistic approach to career growth.
 
-> **Note:** This is a pre-release version. See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for known issues and roadmap.
-
 ## Features
 
 - **Smart Dashboard**: personalized stats, career path tracking, and daily goals.
@@ -40,7 +38,6 @@ Atlas AI is a comprehensive career development platform that uses Artificial Int
 ### Prerequisites
 - Node.js 18+
 - Python 3.10+
-- Docker & Docker Compose (Optional, for containerized run)
 
 ### Local Development (Manual)
 
@@ -102,18 +99,12 @@ atlas-ai/
 └── docker-compose.yml       # Container orchestration
 ```
 
-## Contributing
-
-We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
 ### Quick Contribution Guide:
 1. Fork the repository
 2. Create a feature branch (`git checkout -b feature/amazing-feature`)
 3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
-
-See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for priority areas and known issues.
 
 ## Bug Reports & Feature Requests
 
@@ -133,15 +124,13 @@ See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for pri
 - [ ] Complete missing features
 - [ ] Production deployment
 
-See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for detailed analysis.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
-- OpenAI for GPT-4o-mini API
+- OpenAI
 - ESCO for occupation and skill data
 - FastAPI and React communities
 - All contributors and testers
