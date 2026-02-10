@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "8000:8000"
+    env_file:
+      - ./backend/.env
+    volumes:
+      - ./backend:/app
+    command: uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+
+  frontend:
+    build: ./frontend/vite-react-app
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    environment:
+      - VITE_API_BASE_URL=http://localhost:8000
+    # For production, we serve static files. For dev with compose:
+    # command: npm run dev
+
+    # Optional: Add Postgres if desired
+    #  db:
+    #    image: postgres:15
+    #    environment:
+    #      POSTGRES_USER: user
+    #      POSTGRES_PASSWORD: password
+    #      POSTGRES_DB: atlas_db
+    #    ports:
+    #      - "5432:5432"
+    #    volumes:
+    #      - postgres_data:/var/lib/postgresql/data
+    #
+    # volumes:
+    #   postgres_data:

@@ -1,0 +1,29 @@
+Colors
+Primary:
+#2E1670
+Accent:
+#1F2023
+Background:
+#FFFFFF
+Text Primary:
+#0000EE
+Link:
+#0000EE
+Fonts
+Garnett Medium(heading)
+Garnett Regular(body)
+Typography
+primary: Garnett Regular
+heading: Garnett Medium
+h1: 60px
+h2: 48px
+body: 14px
+Spacing
+Base Unit:
+4
+Border Radius:
+8px
+Personality
+Tone: professional
+Energy: medium
+Audience: business professionals and product managers
