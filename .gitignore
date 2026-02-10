@@ -120,10 +120,12 @@ Desktop.ini
 *~
 
 # ─── Project Specific ───────────────
-# Ignore session reports (keep only latest)
-SESSION_REPORT_*.md
+# Ignore all markdown files in root except README.md
+/*.md
+!README.md
 
-# Keep architecture docs
+# Keep markdown files in specific folders
+!md files/
 !architecture/
 
 # Ignore personal notes
