@@ -1,4 +1,4 @@
-# Atlas AI - Intelligent Career Development Platform 🚀
+# Atlas AI - Intelligent Career Development Platform
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
@@ -9,9 +9,9 @@
 
 Atlas AI is a comprehensive career development platform that uses Artificial Intelligence to guide users through their professional journey. From personalized career recommendations and skill gap analysis to roadmap generation and job simulation, Atlas AI provides a holistic approach to career growth.
 
-> ⚠️ **Note:** This is a pre-release version. See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for known issues and roadmap.
+> **Note:** This is a pre-release version. See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for known issues and roadmap.
 
-## 🌟 Features
+## Features
 
 - **Smart Dashboard**: personalized stats, career path tracking, and daily goals.
 - **AI Career Guidance**: specialized algorithms to recommend careers based on skills and interests.
@@ -21,7 +21,7 @@ Atlas AI is a comprehensive career development platform that uses Artificial Int
 - **Tools Suite**: Scholarship finder, Side Hustle generator, Ghost Job detector.
 - **Settings**: Fully customizable experience with Dark/Light themes and privacy controls.
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 **Frontend:**
 - React 18 (Vite)
@@ -35,7 +35,7 @@ Atlas AI is a comprehensive career development platform that uses Artificial Int
 - PostgreSQL / SQLite
 - OpenAI API Integration
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -70,7 +70,7 @@ Atlas AI is a comprehensive career development platform that uses Artificial Int
 
     Access the app at `http://localhost:5173`.
 
-### 🐳 Deployment with Docker
+### Deployment with Docker
 
 We provide a production-ready Docker setup.
 
@@ -84,7 +84,7 @@ We provide a production-ready Docker setup.
     - Backend API: `http://localhost:8000`
     - API Docs: `http://localhost:8000/docs`
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 atlas-ai/
@@ -102,7 +102,7 @@ atlas-ai/
 └── docker-compose.yml       # Container orchestration
 ```
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
@@ -115,38 +115,38 @@ We welcome contributions! Please see [CONTRIBUTING.md](CONTRIBUTING.md) for guid
 
 See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for priority areas and known issues.
 
-## 🐛 Bug Reports & Feature Requests
+## Bug Reports & Feature Requests
 
 - **Bugs:** Open an issue with the `bug` label
 - **Features:** Open an issue with the `enhancement` label
 - **Security:** Email security concerns privately (see SECURITY.md)
 
-## 📊 Project Status
+## Project Status
 
 **Current Version:** 0.9.0-beta (MVP)  
-**Status:** ⭐⭐⭐⚫⚫ (3/5 - Functional with known issues)
+**Status:** 3/5 (Functional with known issues)
 
 **Next Milestones:**
-- ✅ Fix critical bugs (5 identified)
-- 🔄 Add comprehensive testing
-- 🔄 Security hardening
-- 🔄 Complete missing features
-- 🔄 Production deployment
+- [x] Fix critical bugs (5 identified)
+- [ ] Add comprehensive testing
+- [ ] Security hardening
+- [ ] Complete missing features
+- [ ] Production deployment
 
 See [COMPREHENSIVE_ANALYSIS_REPORT.md](COMPREHENSIVE_ANALYSIS_REPORT.md) for detailed analysis.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Acknowledgments
+## Acknowledgments
 
 - OpenAI for GPT-4o-mini API
 - ESCO for occupation and skill data
 - FastAPI and React communities
 - All contributors and testers
 
-## 📧 Contact
+## Contact
 
 - **Issues:** [GitHub Issues](https://github.com/YOUR_USERNAME/Atlas-AI/issues)
 - **Discussions:** [GitHub Discussions](https://github.com/YOUR_USERNAME/Atlas-AI/discussions)
@@ -154,4 +154,4 @@ Acknowledgments
 
 ---
 
-**Made with ❤️ by the Atlas AI Team**
+**Made by the Atlas AI Team**
